@@ -22,6 +22,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 0em;
+  padding: 0em;
 }
 
 .App-link {
@@ -41,32 +43,30 @@
   background: #544a7d;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .landing-grid{
   background:#ffff;  /* fallback for old browsers */
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
 }
 
-.avatar-img {
-  
-  padding-top: 5em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.landing {
+  width: 50%;
+}
+
+.landing-img {
+  position: fixed;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(./public/bestlanding.jpg);
+    /* top: -50%; */
+    /* left: -50%; */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 }
 
 .banner-text {
-  background-color: black;
-  opacity: .8;
-  width: 75%;
-  margin: auto;
-  border-radius: 10px;
+  width: 100;
+  margin-top: 15%;
 }
 
 .banner-text h1 {
@@ -74,12 +74,15 @@
   font-weight: bold;
   color: white;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .banner-text hr {
   border-top: 5px dotted white;
-  width: 50%;
-  margin: auto;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
   text-align: center;
 }
 
