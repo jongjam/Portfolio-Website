@@ -55,13 +55,18 @@
 }
 
 .landing-img {
-  position: fixed;
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(./public/bestlanding.jpg);
+  position: absolute;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(./img/bestlanding.jpg);
     /* top: -50%; */
+    top: 0;
     /* left: -50%; */
     width: 100%;
-    height: 100%;
+    height: 80%;
     background-size: cover;
+}
+
+.project-section {
+  margin-top: 5%;
 }
 
 .banner-text {
