@@ -14,7 +14,7 @@ class Project_Card extends Component {
         return this.props.projects.map((project) => (
             <div>
                 <Card shadow={0} style={{width: '80%', marginLeft: '10%', marginRight: '10%'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: `url(${project.image}) center / cover`}}>{project.projectTitle}</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: project.color}}>{project.projectTitle}</CardTitle>
                     <CardText>
                         {project.description}
                     </CardText>
