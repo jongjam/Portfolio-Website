@@ -11,13 +11,13 @@ function App() {
             <Header className="header-color"title={<span><span style={{ color: '/ddd' }}> </span><strong>James Jhong</strong></span>}>
                 <Navigation>
                     <Link to="/home">Home</Link>
-                    <Link to="/aboutme">About Me</Link>
+                    <Link to="/about">About Me</Link>
                 </Navigation>
             </Header>
             <Drawer title="">
                 <Navigation>
                     <Link to="/home">Home</Link>
-                    <Link to="/aboutme">About Me</Link>
+                    <Link to="/about">About Me</Link>
                 </Navigation>
             </Drawer>
             <Content>

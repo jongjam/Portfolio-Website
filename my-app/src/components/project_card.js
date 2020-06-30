@@ -6,25 +6,31 @@ import {
     CardActions,
     CardMenu,
     Button,
-    IconButton
+    IconButton,
+    Grid,
+    Cell
 } from 'react-mdl';
+
+import {Col} from 'react-bootstrap'
+
 
 class Project_Card extends Component {
     render() {
         return this.props.projects.map((project) => (
-            <div>
-                <Card shadow={0} style={{width: '80%', marginLeft: '10%', marginRight: '10%'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: project.color}}>{project.projectTitle}</CardTitle>
-                    <CardText>
-                        {project.description}
-                    </CardText>
-                    <CardActions border>
-                        <Button colored>Get Started</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#dedff9'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                </Card> 
+            <div style={{margin: 'auto 3%'}}>
+                <Col>
+                    <Card shadow={0} style={{maxWidth: '100%', height: '550px'}}>
+                        <CardTitle style={{ textAlign: 'center' ,color: '#fff', height: '300px', background: `url(${project.image}) center / cover`}}></CardTitle>
+                        <CardText style={{height: '250px'}}>
+                          <h5>{project.projectTitle}</h5>  
+                            {project.description}
+                        </CardText>
+                        <CardActions border>
+                            <Button colored ><a style={{ color:'blue', textDecoration: 'none'}} href={project.gitHubLink}>GitHub</a></Button>
+                        </CardActions>
+                    </Card> 
+                </Col>
+              
             </div>
         ));
     }
