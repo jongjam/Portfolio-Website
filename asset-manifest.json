@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/https://jongjam.github.io/Portfolio-Website/static/css/main.445f49f5.chunk.css",
-    "main.js": "/https://jongjam.github.io/Portfolio-Website/static/js/main.47722bec.chunk.js",
-    "main.js.map": "/https://jongjam.github.io/Portfolio-Website/static/js/main.47722bec.chunk.js.map",
-    "runtime-main.js": "/https://jongjam.github.io/Portfolio-Website/static/js/runtime-main.b50cfb64.js",
-    "runtime-main.js.map": "/https://jongjam.github.io/Portfolio-Website/static/js/runtime-main.b50cfb64.js.map",
-    "static/css/2.e4346227.chunk.css": "/https://jongjam.github.io/Portfolio-Website/static/css/2.e4346227.chunk.css",
-    "static/js/2.b94fd088.chunk.js": "/https://jongjam.github.io/Portfolio-Website/static/js/2.b94fd088.chunk.js",
-    "static/js/2.b94fd088.chunk.js.map": "/https://jongjam.github.io/Portfolio-Website/static/js/2.b94fd088.chunk.js.map",
-    "index.html": "/https://jongjam.github.io/Portfolio-Website/index.html",
-    "precache-manifest.38e2d55312f310716b058e4c995639b1.js": "/https://jongjam.github.io/Portfolio-Website/precache-manifest.38e2d55312f310716b058e4c995639b1.js",
-    "service-worker.js": "/https://jongjam.github.io/Portfolio-Website/service-worker.js",
-    "static/css/2.e4346227.chunk.css.map": "/https://jongjam.github.io/Portfolio-Website/static/css/2.e4346227.chunk.css.map",
-    "static/css/main.445f49f5.chunk.css.map": "/https://jongjam.github.io/Portfolio-Website/static/css/main.445f49f5.chunk.css.map",
-    "static/js/2.b94fd088.chunk.js.LICENSE.txt": "/https://jongjam.github.io/Portfolio-Website/static/js/2.b94fd088.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/https://jongjam.github.io/Portfolio-Website/static/media/bestlanding.ed795711.jpg"
+    "main.css": "/Portfolio-Website/static/css/main.08043fa6.chunk.css",
+    "main.js": "/Portfolio-Website/static/js/main.132e9d47.chunk.js",
+    "main.js.map": "/Portfolio-Website/static/js/main.132e9d47.chunk.js.map",
+    "runtime-main.js": "/Portfolio-Website/static/js/runtime-main.9c5887bc.js",
+    "runtime-main.js.map": "/Portfolio-Website/static/js/runtime-main.9c5887bc.js.map",
+    "static/css/2.e4346227.chunk.css": "/Portfolio-Website/static/css/2.e4346227.chunk.css",
+    "static/js/2.2ba972e1.chunk.js": "/Portfolio-Website/static/js/2.2ba972e1.chunk.js",
+    "static/js/2.2ba972e1.chunk.js.map": "/Portfolio-Website/static/js/2.2ba972e1.chunk.js.map",
+    "index.html": "/Portfolio-Website/index.html",
+    "precache-manifest.7fba06d94060c30d39d7a7ca4a564024.js": "/Portfolio-Website/precache-manifest.7fba06d94060c30d39d7a7ca4a564024.js",
+    "service-worker.js": "/Portfolio-Website/service-worker.js",
+    "static/css/2.e4346227.chunk.css.map": "/Portfolio-Website/static/css/2.e4346227.chunk.css.map",
+    "static/css/main.08043fa6.chunk.css.map": "/Portfolio-Website/static/css/main.08043fa6.chunk.css.map",
+    "static/js/2.2ba972e1.chunk.js.LICENSE.txt": "/Portfolio-Website/static/js/2.2ba972e1.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Portfolio-Website/static/media/bestlanding.ed795711.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b50cfb64.js",
+    "static/js/runtime-main.9c5887bc.js",
     "static/css/2.e4346227.chunk.css",
-    "static/js/2.b94fd088.chunk.js",
-    "static/css/main.445f49f5.chunk.css",
-    "static/js/main.47722bec.chunk.js"
+    "static/js/2.2ba972e1.chunk.js",
+    "static/css/main.08043fa6.chunk.css",
+    "static/js/main.132e9d47.chunk.js"
   ]
 }
