@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.about-me {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.5%;
+}
+
+.about-me-head {
+  text-align: center;
+  font-family: 'Kalam', serif;
+  margin-bottom: 2.5%;
+}
+
+.am-para1{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.am-para2{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 0em;
+  padding: 0em;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-color {
+  background: #544a7d;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.landing-grid{
+  background:#ffff;  /* fallback for old browsers */
+}
+
+.landing {
+  width: 50%;
+}
+
+.landing-img {
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(./img/bestlanding.jpg);
+  /* top: -50%; */
+  top: 0;
+  /* left: -50%; */
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  opacity: 0.8;
+
+}
+
+
+
+.banner-text {
+  width: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+  text-align: center;
+}
+
+.project-section {
+  position: relative;
+  margin-top: 10%;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
