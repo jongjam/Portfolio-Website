@@ -30,7 +30,7 @@ export class Landing_Page extends Component {
     
     render() {
         return (
-            <div>
+            <div className="all">
                 <div>
                     <div className="landing-img">
                         <div className="banner-text">
@@ -41,8 +41,7 @@ export class Landing_Page extends Component {
                     </div>
                 </div>
                 <div className="project-section"> 
-                   
-                   
+                    <section>
                     <Container>
                         <Row style={{
                             display: 'flex', 
@@ -51,7 +50,9 @@ export class Landing_Page extends Component {
                         }}>
                             <Project_Card projects={this.state.projects}></Project_Card>
                         </Row>
-                    </Container>      
+                    </Container>   
+                    </section>
+                       
                 </div>
                 
                 

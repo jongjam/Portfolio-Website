@@ -4,11 +4,7 @@ import {
     CardTitle,
     CardText,
     CardActions,
-    CardMenu,
     Button,
-    IconButton,
-    Grid,
-    Cell
 } from 'react-mdl';
 
 import {Col} from 'react-bootstrap'
@@ -17,9 +13,9 @@ import {Col} from 'react-bootstrap'
 class Project_Card extends Component {
     render() {
         return this.props.projects.map((project) => (
-            <div style={{margin: 'auto 3%'}}>
+            <div style={{margin: 'auto 3%', marginBottom: 60}}>
                 <Col>
-                    <Card shadow={0} style={{maxWidth: '100%', height: '550px'}}>
+                    <Card shadow={3} style={{maxWidth: '100%', height: '550px'}}>
                         <CardTitle style={{ textAlign: 'center' ,color: '#fff', height: '300px', background: `url(${project.image}) center / cover`}}></CardTitle>
                         <CardText style={{height: '250px'}}>
                           <h5>{project.projectTitle}</h5>  
