@@ -16,7 +16,7 @@ class Project_Card extends Component {
             <div style={{margin: 'auto 3%', marginBottom: 60}}>
                 <Col>
                     <Card shadow={3} style={{maxWidth: '100%', height: '550px'}}>
-                        <CardTitle style={{ textAlign: 'center' ,color: '#fff', height: '300px', background: `url(${project.image}) center / cover`}}></CardTitle>
+                        <CardTitle style={{ textAlign: 'center' ,color: '#fff', height: '300px', background: 'url(' + require(project.image) + ') center / cover'}}></CardTitle>
                         <CardText style={{height: '250px'}}>
                           <h5>{project.projectTitle}</h5>  
                             {project.description}
