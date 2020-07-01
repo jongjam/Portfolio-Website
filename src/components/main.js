@@ -7,7 +7,7 @@ import About_Me from './About_Me';
 const Main = () => {
     return (
         <Switch>
-            <Route exact path="/" component={ Home } />
+            <Route exact path="/home" component={ Home } />
             <Route path="/home" component={ Home } />
             <Route path='/about' component={ About_Me } />
         </Switch>
