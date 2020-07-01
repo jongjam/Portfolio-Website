@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/https://github.com/jongjam/Portfolio-Website/static/css/main.98999e09.chunk.css",
+    "main.js": "/https://github.com/jongjam/Portfolio-Website/static/js/main.ed2666de.chunk.js",
+    "main.js.map": "/https://github.com/jongjam/Portfolio-Website/static/js/main.ed2666de.chunk.js.map",
+    "runtime-main.js": "/https://github.com/jongjam/Portfolio-Website/static/js/runtime-main.aa589ed9.js",
+    "runtime-main.js.map": "/https://github.com/jongjam/Portfolio-Website/static/js/runtime-main.aa589ed9.js.map",
+    "static/css/2.e4346227.chunk.css": "/https://github.com/jongjam/Portfolio-Website/static/css/2.e4346227.chunk.css",
+    "static/js/2.b94fd088.chunk.js": "/https://github.com/jongjam/Portfolio-Website/static/js/2.b94fd088.chunk.js",
+    "static/js/2.b94fd088.chunk.js.map": "/https://github.com/jongjam/Portfolio-Website/static/js/2.b94fd088.chunk.js.map",
+    "index.html": "/https://github.com/jongjam/Portfolio-Website/index.html",
+    "precache-manifest.03a72c8276b9e0d2d25b2d48a920c9d9.js": "/https://github.com/jongjam/Portfolio-Website/precache-manifest.03a72c8276b9e0d2d25b2d48a920c9d9.js",
+    "service-worker.js": "/https://github.com/jongjam/Portfolio-Website/service-worker.js",
+    "static/css/2.e4346227.chunk.css.map": "/https://github.com/jongjam/Portfolio-Website/static/css/2.e4346227.chunk.css.map",
+    "static/css/main.98999e09.chunk.css.map": "/https://github.com/jongjam/Portfolio-Website/static/css/main.98999e09.chunk.css.map",
+    "static/js/2.b94fd088.chunk.js.LICENSE.txt": "/https://github.com/jongjam/Portfolio-Website/static/js/2.b94fd088.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/https://github.com/jongjam/Portfolio-Website/static/media/bestlanding.ed795711.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa589ed9.js",
+    "static/css/2.e4346227.chunk.css",
+    "static/js/2.b94fd088.chunk.js",
+    "static/css/main.98999e09.chunk.css",
+    "static/js/main.ed2666de.chunk.js"
+  ]
+}
