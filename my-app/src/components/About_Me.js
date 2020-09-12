@@ -7,7 +7,7 @@ export class About_Me extends Component {
             <div>
                 <Container fluid="md">
                     <Row>
-                        <Col><img src='../../grad.jpg' alt='grad' class="about-me"/></Col>
+                        <Col><img src={require('../img/grad.jpg')} alt='grad' class="about-me"/></Col>
                     </Row>
                     <Row>
                         <Col><h1 class ="about-me-head">Hello, my name is James Jhong!</h1></Col>
